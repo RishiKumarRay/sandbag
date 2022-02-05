@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-          # Defaults to the user or organization that owns the workflow file
+          # Defaults to the user or organization that owns the workflow files
           scope: '@openbeta'
       - run: yarn
       - run: yarn publish --access public
